@@ -47,7 +47,7 @@ a.primary .ico{background:rgba(255,255,255,.16);color:#fff}
 .sub{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
 .arrow{flex:none;opacity:.55}
 .video{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.video video{display:block;width:100%;height:auto;background:#000;aspect-ratio:16/9}
+.video iframe{display:block;width:100%;height:auto;border:0;background:#000;aspect-ratio:16/9}
 .video p{padding:10px 16px;font-size:13px;color:var(--muted)}
 footer{max-width:560px;margin:8px auto 0;padding:0 16px 40px;text-align:center;font-size:12.5px;color:var(--muted)}
 footer strong{color:var(--ink)}
@@ -66,11 +66,8 @@ footer strong{color:var(--ink)}
   <section class="group" aria-labelledby="g0">
     <h2 id="g0">Vídeo pitch</h2>
     <div class="video" style="margin-top:0">
-      <video controls preload="metadata" playsinline poster="Pitch_SmartVagas.jpg">
-        <source src="Pitch_SmartVagas.mp4" type="video/mp4">
-        Seu navegador não reproduz vídeo. <a href="Pitch_SmartVagas.mp4">Baixe o pitch</a>.
-      </video>
-      <p>Apresentação do projeto e do MVP pela equipe · 4 min 27 s · <a href="Pitch_SmartVagas.mp4" download style="color:var(--blue);font-weight:600">Baixar o vídeo (18 MB)</a></p>
+      <iframe src="https://www.youtube-nocookie.com/embed/WzykE0PkZbw" title="Pitch SmartVagas" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>Apresentação do projeto e do MVP pela equipe · 4 min 27 s · <a href="https://youtu.be/WzykE0PkZbw" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600">Assistir no YouTube</a></p>
     </div>
   </section>
 
@@ -102,7 +99,7 @@ footer strong{color:var(--ink)}
     </a>
     <a class="link" href="Apresentacao_SmartVagas.pdf" target="_blank" rel="noopener">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="12" rx="2"/><path d="M12 15v4M8 21l4-2 4 2"/></svg></span>
-      <span class="txt"><span class="title">Apresentação em slides</span><br><span class="sub">29 slides · PDF</span></span>
+      <span class="txt"><span class="title">Apresentação em slides</span><br><span class="sub">33 slides · PDF</span></span>
       <span class="arrow" aria-hidden="true">↗</span>
     </a>
     <a class="link" href="Dossie_Evidencias_SmartVagas.pdf" target="_blank" rel="noopener">
